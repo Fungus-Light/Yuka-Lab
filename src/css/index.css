@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100vw;
+}
+
+.editor{
+    width: 50vw;
+    height: 100vh;
+    font-size: 18px;
+    float: left;
+}
+
+.editor::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.canvasPos{
+    width: 50vw;
+    height: 100vh;
+    float: left;
+    background-color: white;
+}
+
+.ace_scrollbar{
+    display: none;
+}
