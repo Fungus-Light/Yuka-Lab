@@ -4,9 +4,9 @@ for (let i = 0; i < total; i++) {
     randomCounts[i] = 0;
 }
 function draw() {
-    background(127);
+    background(0);
     let index = floor(random(total));
-    randomCounts[index]++;
+    randomCounts[index]+=2;
 
     // Draw a rectangle to graph results
     stroke(0);
